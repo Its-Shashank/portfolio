@@ -49,11 +49,11 @@ export default function Portfolio() {
             <div className="flex-1 space-y-4">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Shashank Gaur</h1>
-                <p className="text-xl text-gray-600 mb-4">Frontend Developer & UI/UX Enthusiast</p>
+                <p className="text-xl text-gray-600 mb-4">Fullstack Developer & Software Engineer</p>
                 <div className="flex items-center gap-4 text-sm text-gray-500">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
-                    San Francisco, CA
+                    Bengaluru, India
                   </div>
                   <div className="flex items-center gap-1">
                     <Calendar className="h-4 w-4" />
@@ -62,9 +62,9 @@ export default function Portfolio() {
                 </div>
               </div>
               <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">
-                Passionate frontend developer with 4 years of experience crafting beautiful, user-centric web
-                applications. I specialize in React, TypeScript, and modern web technologies, with a keen eye for design
-                and performance optimization.
+                Passionate fullstack developer with 4 years of experience building end-to-end web applications. 
+                I specialize in React, Node.js, TypeScript, Golang, and modern web technologies, with expertise in both 
+                frontend and backend development, database design, and cloud deployment.
               </p>
               <div className="flex gap-3">
                 <Button asChild>
@@ -117,13 +117,21 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Tools & Others</h4>
+                  <h4 className="font-semibold text-gray-900 mb-2">Backend</h4>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="outline">Git</Badge>
-                    <Badge variant="outline">Figma</Badge>
-                    <Badge variant="outline">Webpack</Badge>
-                    <Badge variant="outline">Jest</Badge>
-                    <Badge variant="outline">Cypress</Badge>
+                    <Badge variant="secondary">Node.js</Badge>
+                    <Badge variant="secondary">Express.js</Badge>
+                    <Badge variant="secondary">Golang</Badge>
+                    <Badge variant="secondary">PostgreSQL</Badge>
+                    <Badge variant="secondary">MySQL</Badge>
+                    <Badge variant="secondary">MongoDB</Badge>
+                    <Badge variant="secondary">Redis</Badge>
+                    <Badge variant="secondary">GraphQL</Badge>
+                    <Badge variant="secondary">RabbitMQ</Badge>
+                    <Badge variant="secondary">Kafka</Badge>
+                    <Badge variant="secondary">Elasticsearch</Badge>
+                    <Badge variant="secondary">Kubernetes</Badge>
+                    <Badge variant="secondary">Docker</Badge>
                   </div>
                 </div>
               </CardContent>
@@ -139,19 +147,19 @@ export default function Portfolio() {
               <CardContent className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="h-2 w-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700">Creating intuitive user interfaces that solve real problems</p>
+                  <p className="text-gray-700">Building complete web applications from database to user interface</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="h-2 w-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700">Performance optimization and clean, maintainable code</p>
+                  <p className="text-gray-700">Architecting scalable backend systems and RESTful APIs</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="h-2 w-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700">Staying up-to-date with the latest web technologies</p>
+                  <p className="text-gray-700">Deploying applications to cloud platforms and managing infrastructure</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="h-2 w-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700">Collaborating with designers and backend developers</p>
+                  <p className="text-gray-700">Collaborating across the full development stack and mentoring teams</p>
                 </div>
               </CardContent>
             </Card>
@@ -162,7 +170,7 @@ export default function Portfolio() {
         <section id="experience" className="space-y-8">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Experience</h2>
-            <p className="text-gray-600">My professional journey in frontend development</p>
+            <p className="text-gray-600">My professional journey in fullstack development</p>
           </div>
 
           <div className="space-y-6">
@@ -170,7 +178,7 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Senior Frontend Developer</CardTitle>
+                    <CardTitle>Senior Fullstack Engineer</CardTitle>
                     <CardDescription className="text-base">TechCorp Inc. • Full-time</CardDescription>
                   </div>
                   <Badge variant="outline">2022 - Present</Badge>
@@ -178,10 +186,10 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Led the development of a React-based dashboard serving 10k+ daily users</li>
-                  <li>• Improved application performance by 40% through code splitting and optimization</li>
-                  <li>• Mentored 2 junior developers and established frontend coding standards</li>
-                  <li>• Collaborated with design team to implement a comprehensive design system</li>
+                  <li>• Led the development of a full-stack React/Node.js dashboard serving 10k+ daily users</li>
+                  <li>• Designed and implemented RESTful APIs and database schemas for scalable applications</li>
+                  <li>• Deployed applications to AWS using Docker and CI/CD pipelines</li>
+                  <li>• Mentored 3 junior developers and established fullstack coding standards</li>
                 </ul>
               </CardContent>
             </Card>
@@ -190,7 +198,7 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Frontend Developer</CardTitle>
+                    <CardTitle>Fullstack Developer</CardTitle>
                     <CardDescription className="text-base">StartupXYZ • Full-time</CardDescription>
                   </div>
                   <Badge variant="outline">2021 - 2022</Badge>
@@ -198,9 +206,9 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Built responsive web applications using React and TypeScript</li>
-                  <li>• Implemented automated testing with Jest and React Testing Library</li>
-                  <li>• Worked closely with UX designers to create pixel-perfect interfaces</li>
+                  <li>• Built end-to-end web applications using React, Node.js, and PostgreSQL</li>
+                  <li>• Implemented authentication systems and user management features</li>
+                  <li>• Created automated testing suites for both frontend and backend components</li>
                   <li>• Participated in agile development process and code reviews</li>
                 </ul>
               </CardContent>
@@ -210,7 +218,7 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Junior Frontend Developer</CardTitle>
+                    <CardTitle>Junior Fullstack Developer</CardTitle>
                     <CardDescription className="text-base">WebAgency Pro • Full-time</CardDescription>
                   </div>
                   <Badge variant="outline">2020 - 2021</Badge>
@@ -218,10 +226,10 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Developed client websites using HTML, CSS, JavaScript, and Vue.js</li>
+                  <li>• Developed client websites using HTML, CSS, JavaScript, and PHP/MySQL</li>
+                  <li>• Built custom CMS systems and e-commerce solutions</li>
                   <li>• Ensured cross-browser compatibility and mobile responsiveness</li>
-                  <li>• Collaborated with backend developers to integrate APIs</li>
-                  <li>• Maintained and updated existing client projects</li>
+                  <li>• Maintained and updated existing client projects and databases</li>
                 </ul>
               </CardContent>
             </Card>
@@ -232,7 +240,7 @@ export default function Portfolio() {
         <section id="projects" className="space-y-8">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Featured Projects</h2>
-            <p className="text-gray-600">Some of my recent work and side projects</p>
+            <p className="text-gray-600">Some of my recent fullstack work and side projects</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -249,11 +257,11 @@ export default function Portfolio() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Analytics Dashboard</CardTitle>
-                    <CardDescription>React • TypeScript • Chart.js</CardDescription>
+                    <CardDescription>React • Node.js • PostgreSQL • Chart.js</CardDescription>
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" variant="ghost" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Its-Shashank/" target="_blank">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -267,13 +275,14 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  A comprehensive analytics dashboard with real-time data visualization, custom charts, and responsive
-                  design.
+                  A comprehensive fullstack analytics dashboard with real-time data visualization, RESTful APIs, 
+                  database integration, and responsive design.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">TypeScript</Badge>
-                  <Badge variant="secondary">Tailwind</Badge>
+                  <Badge variant="secondary">Node.js</Badge>
+                  <Badge variant="secondary">PostgreSQL</Badge>
+                  <Badge variant="secondary">Express</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -295,7 +304,7 @@ export default function Portfolio() {
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" variant="ghost" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Its-Shashank/" target="_blank">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -309,12 +318,14 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.
+                  Full-stack e-commerce solution with payment processing, inventory management, admin dashboard, 
+                  user authentication, and RESTful API backend.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Next.js</Badge>
+                  <Badge variant="secondary">Node.js</Badge>
                   <Badge variant="secondary">Stripe</Badge>
-                  <Badge variant="secondary">Prisma</Badge>
+                  <Badge variant="secondary">MongoDB</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -332,11 +343,11 @@ export default function Portfolio() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Task Management App</CardTitle>
-                    <CardDescription>React Native • Redux • Firebase</CardDescription>
+                    <CardDescription>React Native • Node.js • MongoDB • Firebase</CardDescription>
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" variant="ghost" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Its-Shashank/" target="_blank">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -350,11 +361,13 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Cross-platform mobile app for task management with real-time synchronization and offline support.
+                  Cross-platform mobile app with custom backend API, real-time synchronization, offline support, 
+                  and user authentication system.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">React Native</Badge>
-                  <Badge variant="secondary">Redux</Badge>
+                  <Badge variant="secondary">Node.js</Badge>
+                  <Badge variant="secondary">MongoDB</Badge>
                   <Badge variant="secondary">Firebase</Badge>
                 </div>
               </CardContent>
@@ -367,12 +380,12 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Design System</CardTitle>
-                    <CardDescription>Storybook • React • CSS-in-JS</CardDescription>
+                    <CardTitle>Fullstack Component Library</CardTitle>
+                    <CardDescription>React • Node.js • Storybook • API Integration</CardDescription>
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" variant="ghost" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Its-Shashank/" target="_blank">
                         <Github className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -386,12 +399,14 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Comprehensive design system with reusable components, documentation, and automated testing.
+                  Comprehensive fullstack component library with reusable UI components, API utilities, 
+                  database helpers, and automated testing suite.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Storybook</Badge>
                   <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">Styled Components</Badge>
+                  <Badge variant="secondary">Node.js</Badge>
+                  <Badge variant="secondary">Storybook</Badge>
+                  <Badge variant="secondary">Jest</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -424,19 +439,19 @@ export default function Portfolio() {
                     </div>
                     <div className="flex items-center gap-3">
                       <MapPin className="h-5 w-5 text-gray-500" />
-                      <span className="text-gray-700">San Francisco, CA</span>
+                      <span className="text-gray-700">Bengaluru, India</span>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
                     <Button variant="outline" size="sm" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Its-Shashank/" target="_blank">
                         <Github className="h-4 w-4 mr-2" />
                         GitHub
                       </Link>
                     </Button>
                     <Button variant="outline" size="sm" asChild>
-                      <Link href="https://linkedin.com" target="_blank">
+                      <Link href="https://www.linkedin.com/in/shashank-gaur-046b9b167/" target="_blank">
                         <Linkedin className="h-4 w-4 mr-2" />
                         LinkedIn
                       </Link>
@@ -483,13 +498,13 @@ export default function Portfolio() {
               <span className="text-gray-600">© 2025 Shashank Developer. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-4">
-              <Link href="https://github.com" target="_blank" className="text-gray-500 hover:text-gray-700">
+              <Link href="https://github.com/Its-Shashank/" target="_blank" className="text-gray-500 hover:text-gray-700">
                 <Github className="h-5 w-5" />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" className="text-gray-500 hover:text-gray-700">
+              <Link href="https://www.linkedin.com/in/shashank-gaur-046b9b167/" target="_blank" className="text-gray-500 hover:text-gray-700">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="mailto:alex.developer@email.com" className="text-gray-500 hover:text-gray-700">
+              <Link href="mailto:work.shashankgaur@gmail.com" className="text-gray-500 hover:text-gray-700">
                 <Mail className="h-5 w-5" />
               </Link>
             </div>

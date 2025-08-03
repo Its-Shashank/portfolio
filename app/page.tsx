@@ -112,7 +112,9 @@ export default function Portfolio() {
                     <Badge variant="secondary">React</Badge>
                     <Badge variant="secondary">TypeScript</Badge>
                     <Badge variant="secondary">Next.js</Badge>
-                    <Badge variant="secondary">Vue.js</Badge>
+                    <Badge variant="secondary">Apollo Client GraphQL</Badge>
+                    <Badge variant="secondary">React Native</Badge>
+                    <Badge variant="secondary">State management</Badge>
                     <Badge variant="secondary">Tailwind CSS</Badge>
                   </div>
                 </div>
@@ -178,18 +180,19 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Senior Fullstack Engineer</CardTitle>
-                    <CardDescription className="text-base">TechCorp Inc. • Full-time</CardDescription>
+                    <CardTitle>Senior Software Engineer</CardTitle>
+                    <CardDescription className="text-base">Dezerv Investments • Full-time</CardDescription>
                   </div>
-                  <Badge variant="outline">2022 - Present</Badge>
+                  <Badge variant="outline">April 2024 - Present</Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Led the development of a full-stack React/Node.js dashboard serving 10k+ daily users</li>
-                  <li>• Designed and implemented RESTful APIs and database schemas for scalable applications</li>
-                  <li>• Deployed applications to AWS using Docker and CI/CD pipelines</li>
-                  <li>• Mentored 3 junior developers and established fullstack coding standards</li>
+                  <li>• Solved the 302 redirection issue for more than 26000 SEO pages.</li>
+                  <li>• Reduced POSTGRES DB query timing from 40 seconds during build to less than 700ms.</li>
+                  <li>• Was involved in setting up Slot Manager microservice from scratch and also worked on the frontend for the same.</li>
+                  <li>• Migrated the entire Dezerv website from Gatsby to Next.js</li>
+                  <li>• Improved web performance from 10 to above 90.</li>
                 </ul>
               </CardContent>
             </Card>
@@ -199,17 +202,16 @@ export default function Portfolio() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Fullstack Developer</CardTitle>
-                    <CardDescription className="text-base">StartupXYZ • Full-time</CardDescription>
+                    <CardDescription className="text-base">Drip Capital • Full-time</CardDescription>
                   </div>
-                  <Badge variant="outline">2021 - 2022</Badge>
+                  <Badge variant="outline">December 2021 - April 2024</Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Built end-to-end web applications using React, Node.js, and PostgreSQL</li>
-                  <li>• Implemented authentication systems and user management features</li>
-                  <li>• Created automated testing suites for both frontend and backend components</li>
-                  <li>• Participated in agile development process and code reviews</li>
+                  <li>• Build the onboarding portal from scratch, including pre-underwriting, underwriting, and post-underwriting journey for the customers. Took complete ownership of the Mexico and US regions of the application. Added support for multiple roles along with customer in the application such as Business Manager and Channel Partners.</li>
+                  <li>• Worked on Legacy products in Vue.js. Added support for roles for the customer and made every entity or action modular. This allowed support to customize permissions for different users who use the portal.</li>
+                  <li>• Built the component library using storybook and React in the first iteration and later reduced its bundle size by more than 50%.</li>
                 </ul>
               </CardContent>
             </Card>
@@ -218,18 +220,17 @@ export default function Portfolio() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Junior Fullstack Developer</CardTitle>
-                    <CardDescription className="text-base">WebAgency Pro • Full-time</CardDescription>
+                    <CardTitle>Software Engineer</CardTitle>
+                    <CardDescription className="text-base">Arvolution • Full-time (Contract)</CardDescription>
                   </div>
-                  <Badge variant="outline">2020 - 2021</Badge>
+                  <Badge variant="outline">April 2021 - December 2021</Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Developed client websites using HTML, CSS, JavaScript, and PHP/MySQL</li>
-                  <li>• Built custom CMS systems and e-commerce solutions</li>
-                  <li>• Ensured cross-browser compatibility and mobile responsiveness</li>
-                  <li>• Maintained and updated existing client projects and databases</li>
+                  <li>• Worked on building React Native UI, frontend logic, reusable components, and integrations to the backend using GraphQL endpoints.</li>
+                  <li>• Joined as a Frontend Engineer but later on started contributing to the backend as well.</li>
+                  <li>• Led a team in the development of a core feature for one of the largest retail companies in Latin America.</li>
                 </ul>
               </CardContent>
             </Card>

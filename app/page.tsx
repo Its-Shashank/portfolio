@@ -15,8 +15,8 @@ export default function Portfolio() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Avatar className="h-8 w-8">
-                <AvatarImage src="/placeholder.svg?height=32&width=32" />
-                <AvatarFallback>AD</AvatarFallback>
+                <AvatarImage src="/dp.jpgs" />
+                <AvatarFallback>SG</AvatarFallback>
               </Avatar>
               <span className="font-semibold text-gray-900">Shashank Gaur</span>
             </div>
@@ -42,9 +42,9 @@ export default function Portfolio() {
         {/* Hero Section */}
         <section className="space-y-8">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
-            <Avatar className="h-24 w-24 md:h-32 md:w-32">
-              <AvatarImage src="/placeholder.svg?height=128&width=128" />
-              <AvatarFallback className="text-2xl">AD</AvatarFallback>
+            <Avatar className="h-24 w-24 md:h-56 md:w-56">
+              <AvatarImage src="/dp.jpg?height=128&width=128" />
+              <AvatarFallback className="text-2xl">SG</AvatarFallback>
             </Avatar>
             <div className="flex-1 space-y-4">
               <div>
@@ -188,11 +188,11 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Solved the 302 redirection issue for more than 26000 SEO pages.</li>
+                  <li>• Solved the 302 redirection issue to 301 permanent redirect for more than 26000 SEO pages which were not getting indexed and fixed more than 25000 pages were giving 404 because of incorrect URLs for all mutual funds and bonds pages.</li>
                   <li>• Reduced POSTGRES DB query timing from 40 seconds during build to less than 700ms.</li>
-                  <li>• Was involved in setting up Slot Manager microservice from scratch and also worked on the frontend for the same.</li>
+                  <li>• Was involved in setting up Slot Manager microservice from scratch and build the Roster Management System for the Business .</li>
                   <li>• Migrated the entire Dezerv website from Gatsby to Next.js</li>
-                  <li>• Improved web performance from 10 to above 90.</li>
+                  <li>• Improved core web-vitals and lighthouse score from 10 to above 90.</li>
                 </ul>
               </CardContent>
             </Card>
